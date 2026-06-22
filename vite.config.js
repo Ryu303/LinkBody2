@@ -15,6 +15,10 @@ export default defineConfig(({ command, mode }) => {
 
   return {
     base: mode === 'production' ? `/${repoName}/` : '/',
+    build: {
+      outDir: 'docs',
+      emptyOutDir: true
+    },
     plugins: [
       react(),
       {
