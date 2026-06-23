@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 // https://vite.dev/config/
 export default defineConfig(({ command, mode }) => {
   // ⚠️ 본인의 깃허브 레포지토리 이름을 여기에 입력하세요 (예: 'obsidian-graph-map')
-  const repoName = 'linkbody2';
+  const repoName = 'LinkBody2';
 
 
   return {
